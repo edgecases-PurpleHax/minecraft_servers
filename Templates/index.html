@@ -2,118 +2,130 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Open Servers</title>
-    <link rel="stylesheet" href="static/index.css">
+    <style>
+       body {
+          background-color: #333;
+          color: white;
+        }
+        @media screen and (prefers-color-scheme: light) {
+          body {
+            background-color: white;
+            color: black;
+          }
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the Purplehax Mincraft servers page</h1>
-    <h2>A couple of really quick things to point out:</h2>
-    <ol>
-        <li>
-            There are some rules to the servers. See the rules section of this page
-        </li>
-        <li>
-            All servers are bedrock servers currently. You must use a bedrock client to connect!
-        </li>
-        <li>
-            If you would like a server to be added, see the request server section of the page (when I get around to writing it)
-        </li>
-        <li>
-            Most importantly, see rule number 1. I will reiterate here, don't be a dick!
-        </li>
-    </ol>
-    <h1>Quick How to</h1>
-    <ol>
-        <li>
-            Open your bedrock client (the minecraft app)
-        </li>
-        <li>
-            Click on the server tab
-        </li>
-        <li>
-            Scroll to the bottom, click Add Server
-        </li>
-        <li>
-            For the name field, enter whatever you want to call it
-        </li>
-        <li>
-            For the Server Address enter minecraft.purplehax.com
-        </li>
-        <li>
-            For the Port field, enter the port from the lists below that you want to connect to
-        </li>
-        <li>
-            Follow the rules and have fun
-        </li>
-    </ol>
-    <h1> Purplehax minecraft rules</h1>
-    <ol>
-        <li>
-            Don't be a dick!
-        </li>
-        <li>
-            I can't believe I have to say this, but be respectful of people. No hate talk, no homophobic talk, no racism. When in question, see rule 1
-        </li>
-        <li>
-            Eventually I will have servers set up for underage people to play in. If you join one of those servers, understand what it is and act accordingly. If you do not, I will ban you from all servers.
-        </li>
-        <li>
-            Have fun!!!
-        </li>
-    </ol>
-    <h1>Survival Servers</h1>
-    <ol>
-        <li>
-            Peaceful server: minecraft.purplehax.com Port: 19130
-        </li>
-        <li>
-            Easy server: minecraft.purplehax.com Port: 19132
-        </li>
-        <li>
-            Medium server: minecraft.purplehax.com Port 19140
-        </li>
-        <li>
-            Hard Server: minecraft.purplehax.com Port 19142
-        </li>
-
-    </ol>
-        <h1> Creative Servers</h1>
-    <ol>
-        <li>
-            Creative server: minecraft.purplehax.com Port 19144
-        </li>
-    </ol>
-    <h1>
-        Theme Servers
-    </h1>
-    <ol>
-        <li>
-            The Journey: minecraft.purplehax.com Port 19138
-        </li>
-    </ol>
-    <p>
-        More Servers to come!!!
-    </p>
-    <h1>
-        Server Requests
-    </h1>
-    <ol>
-        <li>
-            Go <a href="https://github.com/edgecases-Purplehax/minecraft_servers/issues" target="_blank">here</a>
-        </li>
-        <li>
-            Click new issue
-        </li>
-        <li>
-            Put any information you have (ie seed, difficulty level, etc) for the server you would like to see created
-        </li>
-        <li>
-            Once the issue is created, I will work on adding it. I try to get servers up with in 7 days of submission
-        </li>
-        <li>
-            Keep in mind, this server will be listed on the public server list. If you want a dedicated server see the bottom of the page.
-        </li>
-    </ol>
-<h3>If you would like a dedicated server, you can contact me and we can work something out. Nothing in life is free, but I will make sure it is a fair price</h3>
+    <div class="header">
+        <h1 align="center" class="display-3">Welcome to the Purplehax<br>Minecraft Servers page</h1>
+    </div>
+    <div class="container">
+        <hr>
+        <h4 class="display-4">A couple of really quick things to point out:</h4>
+        <ol>
+            <li>
+                There are some rules to the servers. See the rules section of this page
+            </li>
+            <li>
+                All servers are bedrock servers currently. You must use a bedrock client to connect!
+            </li>
+            <li>
+                If you would like a server to be added, see the request server section of the page (when I get around to writing it)
+            </li>
+            <li>
+                Most importantly, see rule number 1. I will reiterate here, don't be a dick!
+            </li>
+        </ol>
+    </div>
+    <div class="container">
+        <h3 class="display-4">Quick How to</h3>
+        <ol>
+            <li>
+                Open your bedrock client (the minecraft app)
+            </li>
+            <li>
+                Click on the server tab
+            </li>
+            <li>
+                Scroll to the bottom, click Add Server
+            </li>
+            <li>
+                For the name field, enter whatever you want to call it
+            </li>
+            <li>
+                For the Server Address enter minecraft.purplehax.com
+            </li>
+            <li>
+                For the Port field, enter the port from the lists below that you want to connect to
+            </li>
+            <li>
+                Follow the rules and have fun
+            </li>
+        </ol>
+        <hr>
+        <h3 class="display-5"> Purplehax Minecraft Rules</h3>
+            <p>
+                <ol>
+                    <li>
+                        Don't be a dick!
+                    </li>
+                    <li>
+                        I can't believe I have to say this, but be respectful of people. No hate talk, no homophobic talk, no racism. When in question, see rule 1
+                    </li>
+                    <li>
+                        Eventually I will have servers set up for underage people to play in. If you join one of those servers, understand what it is and act accordingly.<br>If you do not, I will ban you from all servers.
+                    </li>
+                    <li>
+                        Have fun!!!
+                    </li>
+                </ol>
+            </p>
+        <hr>
+        <h4 class="display-6">Survival Servers</h4>
+            <p>
+               - Peaceful server: minecraft.purplehax.com Port: 19144<br>
+               - Easy server: minecraft.purplehax.com Port: 19138<br>
+               - Medium server: minecraft.purplehax.com Port 19142<br>
+               - Hard Server: minecraft.purplehax.com Port 19136<br>
+            </p>
+            <h4 class="display-6"> Creative Servers</h4>
+        <p>- Creative server: minecraft.purplehax.com Port 19146</p>
+        <h4 class="display-6">
+            Theme Servers
+        </h4>
+        <p>- The Journey: minecraft.purplehax.com Port 19134</p>
+        <hr>
+        <h4 class="display-6"> Satisfactory Servers </h4>
+        <p>- Satisfactory Server: Port UDP 15777<br><br>
+            <em>More Servers to come!!!.....maybe</em>
+        </p>
+        <hr>
+        <h3 class="display-4">
+            Server Requests
+        </h3>
+        <ol>
+            <li>
+                Go <a href="https://github.com/edgecases-Purplehax/minecraft_servers/issues" target="_blank">here</a>
+            </li>
+            <li>
+                Click new issue
+            </li>
+            <li>
+                Put any information you have (ie seed, difficulty level, etc) for the server you would like to see created
+            </li>
+            <li>
+                Once the issue is created, I will work on adding it. I try to get servers up with in 7 days of submission
+            </li>
+            <li>
+                Keep in mind, this server will be listed on the public server list. If you want a dedicated server see the bottom of the page.
+            </li>
+        </ol>
+        <hr>
+        <figure class="text-center">
+            <blockquote class="blockquote"><p><em>If you would like a dedicated server, you can contact me and we can work something out.<br>Nothing in life is free, but I will make sure it is a fair price</em></p></blockquote>
+        </figure>
+    </div>
 </body>
 </html>
