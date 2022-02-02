@@ -1,0 +1,27 @@
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://10.0.0.253:8080/ (Press CTRL+C to quit)
+10.0.0.239 - - [01/Feb/2022 17:37:12] "GET / HTTP/1.1" 200 -
+10.0.0.239 - - [01/Feb/2022 17:37:12] "GET /static/index.css HTTP/1.1" 200 -
+10.0.0.239 - - [01/Feb/2022 17:37:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+46.174.191.30 - - [01/Feb/2022 18:09:50] "GET / HTTP/1.0" 200 -
+185.204.1.183 - - [01/Feb/2022 18:54:15] "GET / HTTP/1.1" 200 -
+103.91.45.26 - - [01/Feb/2022 20:19:46] "GET / HTTP/1.1" 200 -
+128.14.141.34 - - [01/Feb/2022 21:17:28] "GET / HTTP/1.1" 200 -
+10.0.0.239 - - [01/Feb/2022 21:51:08] "GET / HTTP/1.1" 200 -
+10.0.0.239 - - [01/Feb/2022 21:51:08] "GET /static/index.css HTTP/1.1" 200 -
+10.0.0.239 - - [01/Feb/2022 21:51:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+173.17.110.113 - - [01/Feb/2022 21:51:22] "GET / HTTP/1.1" 200 -
+173.17.110.113 - - [01/Feb/2022 21:51:22] "GET /static/index.css HTTP/1.1" 200 -
+173.17.110.113 - - [01/Feb/2022 21:51:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+173.17.110.113 - - [01/Feb/2022 21:52:37] "GET / HTTP/1.1" 200 -
+173.17.110.113 - - [01/Feb/2022 21:52:37] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+173.17.110.113 - - [01/Feb/2022 21:53:29] "GET / HTTP/1.1" 200 -
+173.17.110.113 - - [01/Feb/2022 21:53:29] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+173.17.110.113 - - [01/Feb/2022 21:53:30] "GET / HTTP/1.1" 200 -
+173.17.110.113 - - [01/Feb/2022 21:53:30] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://10.0.0.253:8080/ (Press CTRL+C to quit)
+10.0.0.239 - - [01/Feb/2022 21:54:16] "GET / HTTP/1.1" 200 -
+173.17.110.113 - - [01/Feb/2022 21:54:20] "GET / HTTP/1.1" 200 -

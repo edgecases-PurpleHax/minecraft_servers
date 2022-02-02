@@ -1,0 +1,6 @@
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://10.0.0.253:8080/ (Press CTRL+C to quit)
+10.0.0.239 - - [29/Jan/2022 16:18:21] "GET / HTTP/1.1" 200 -
+10.0.0.239 - - [29/Jan/2022 16:18:21] "GET /static/index.css HTTP/1.1" 200 -
+10.0.0.239 - - [29/Jan/2022 16:18:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

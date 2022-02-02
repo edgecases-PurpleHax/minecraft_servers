@@ -1,0 +1,119 @@
+2021-11-09 04:50:50,423:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-11-09 04:50:50,424:  * Running on http://10.0.0.253:8080/ (Press CTRL+C to quit)
+2021-11-09 04:51:03,856: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "../main.py", line 9, in index
+    return render_template("index.html")
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2021-11-09 04:51:03,902: 10.0.0.238 - - [09/Nov/2021 04:51:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-11-09 04:51:04,065: 10.0.0.238 - - [09/Nov/2021 04:51:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-11-09 04:51:34,037:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2021-11-09 04:51:34,037:  * Running on http://10.0.0.253:8080/ (Press CTRL+C to quit)
+2021-11-09 04:51:38,556: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "../main.py", line 9, in index
+    return render_template("index.html")
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2021-11-09 04:51:38,559: 10.0.0.238 - - [09/Nov/2021 04:51:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-11-09 04:51:40,109: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "../main.py", line 9, in index
+    return render_template("index.html")
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2021-11-09 04:51:40,110: 10.0.0.238 - - [09/Nov/2021 04:51:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2021-11-09 04:51:41,711: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "../main.py", line 9, in index
+    return render_template("index.html")
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/environment.py", line 1068, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/environment.py", line 997, in get_template
+    return self._load_template(name, globals)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/environment.py", line 958, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/jinja2/loaders.py", line 125, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/templating.py", line 59, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/edgecase/minecraft_servers/venv/lib/python3.8/site-packages/flask/templating.py", line 95, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+2021-11-09 04:51:41,712: 10.0.0.238 - - [09/Nov/2021 04:51:41] "[35m[1mGET / HTTP/1.1[0m" 500 -

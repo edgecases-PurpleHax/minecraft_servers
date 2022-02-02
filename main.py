@@ -1,5 +1,6 @@
 from flask import Flask, render_template, send_file
 import logging
+from logging.handlers import TimedRotatingFileHandler
 app = Flask("app")
 
 
@@ -8,9 +9,12 @@ def index():
     return render_template("index.html")
 @app.route("/roadedgesaves", methods=["GET"])
 def download():
-    return send_file("/home/edgecase/.config/Epic/FactoryGame/Saved/SaveGames/server/testing_autosave_0.sav", as_attachment=True)
+    return send_file("/home/edgecase/.config/Epic/FactoryGame/Saved/SaveGames/server/testingRockyDesert_autosave_0.sav", as_attachment=True)
 
 
 if __name__ == "__main__":
-    logging.basicConfig(filename='server.log', level=logging.INFO, format='%(asctime)s: %(message)s')
-    app.run(debug=True, port=80)
+    logger = logging.getLogger('werkzeug')
+    handler = TimedRotatingFileHandler('access.log', when="midnight", interval=1, backupCount=1)
+    handler.suffix = "%Y%m%d"
+    logger.addHandler(handler)
+    app.run(host="0.0.0.0", debug=False, port=8080)
